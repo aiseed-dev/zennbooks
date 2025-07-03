@@ -13,9 +13,6 @@ published: false
 # 価格（無料の場合は0）
 price: 0
 
-# 有料設定の場合の目次（今回は無料なので空でOK）
-toc_free: true
-
 # 章の構成
 # ファイル名の拡張子 .md は含めずに記述します
 chapters:
