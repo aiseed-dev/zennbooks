@@ -1,0 +1,37 @@
+# 本のタイトル
+title: "Windowsで始める Python+Flutterモダン開発入門：AIと一緒にデータ分析からアプリリリースまで"
+
+# 本の概要（summary）
+summary: "Windows PCを持つプログラミング初心者が、AIを最高の相棒にして、PythonでのデータサイエンスからFlutterでのスマホアプリ開発までを冒険する物語形式の入門書です。環境構築からツールの選び方、AIとの協業、そしてStreamlitでのデータ可視化やFlutterでのアプリ開発まで、モダンな開発スタイルを楽しく学べます。"
+
+# トピック（5つまで）
+topics: ["Python", "Flutter", "AI", "初心者", "Streamlit"]
+
+# 本の公開設定（trueにすると公開されます）
+published: false
+
+# 価格（無料の場合は0）
+price: 0
+
+# 有料設定の場合の目次（今回は無料なので空でOK）
+toc_free: true
+
+# 章の構成
+# ファイル名の拡張子 .md は含めずに記述します
+chapters:
+  - 01_why_python
+  - 02_setup_miniforge
+  - 03_pycharm_vs_vscode
+  - 04_setup_pycharm
+  - 05_jupyter_notebook
+  - 06_meet_the_ai_assistant
+  - 07_practice_build_todo_app_with_ai
+  - 08_practice_run_todo_app_in_pycharm
+  - 09_practice_excel_to_json_with_ai
+  - 10_practice_json_to_html_report
+  - 11_practice_streamlit_dashboard
+  - 12_to_the_new_adventure_flutter
+  - 13_setup_flutter_environment
+  - 14_first_flutter_app
+  - 15_flutter_widgets
+  - 16_final_chapter_gym_app
