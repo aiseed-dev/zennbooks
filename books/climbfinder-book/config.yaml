@@ -1,0 +1,29 @@
+# config.yaml
+
+# 本のタイトル
+title: "ゼロから学ぶFlutterアプリ開発の物語 - チョークの跡が繋ぐ、デジタル岩場"
+
+# 本の概要（ストアページやSNSでシェアされる際に表示されます）
+summary: "一人のWebデザイナー兼クライマー、高田美咲。彼女の「あったらいいな」という純粋な想いから生まれたFlutterアプリ『ClimbFinder』。静的なJSONデータから始まった小さなプロジェクトが、Firebaseとの出会い、そしてユーザーという”仲間”の声を得て、やがて日本中のクライマーを繋ぐ大きな『デジタル岩場』へと成長していく。これは、コードと情熱が紡ぐ、アプリ開発の物語です。"
+
+# 関連する技術トピック（5つまで）
+topics: ["Flutter", "Dart", "Firebase", "物語", "個人開発"]
+
+# 公開設定 (trueにすると公開されます。最初はfalseのまま編集するのがおすすめです)
+published: false
+
+# 価格（無料の場合は0、有料の場合は200〜5000の整数）
+price: 0
+
+# 表紙画像（任意）。同じフォルダに画像を配置してください。
+# coverImage: "cover.png"
+
+# 各章のファイル名を指定します。この順番で本が構成されます。
+chapters:
+  - 01-hajimari-no-data
+  - 02-digital-no-kabe
+  - 03-inochi-wo-fukikomu
+  - 04-saisyo-no-ashiato
+  - 05-hibikiau-koe
+  - 06-data-no-kabe-wo-koete
+  - 07-final-chapter
