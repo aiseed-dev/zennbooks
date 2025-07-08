@@ -10,7 +10,7 @@ summary: "Windows PCを持つプログラミング初心者が、AIを最高の�
 topics: ["Python", "Flutter", "AI", "初心者", "Streamlit"]
 
 # 本の公開設定（trueにすると公開されます）
-published: false
+published: true
 
 # 価格（無料の場合は0）
 price: 0
