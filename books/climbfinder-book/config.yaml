@@ -1,10 +1,10 @@
 # このファイルはZennのBookの設定ファイルです。
 # 詳細は https://zenn.dev/zenn/articles/zenn-book-config を参照
 # 本のタイトル
-title: "Geminiと歩むFlutter開発物語 - AIと共に拓くアプリ開発"
+title: "Geminiと歩むFlutter開発物語 - AIと共に創るアプリ"
 
 # 本の概要（読者が最初に目にする説明文）
-summary: "Webデザイナーの高田美咲が、AIアシスタントGeminiと共にクライミングジム検索アプリを一から作り上げる物語。Excelデータから始まり、Firebase、検索機能、ユーザー参加型機能、そして収益化まで、アプリ開発のリアルな道のりを実践的なコードと共に体験します。Flutter初学者から中級者まで、楽しみながら学べる開発ドキュメンタリー。"
+summary: "Webデザイナーの高田美咲が、AIアシスタントGeminiと共にクライミングジム検索アプリを一から作り上げる物語。Excelデータから始まり、検索機能、Firebase、ユーザー参加型機能、そして収益化まで、アプリ開発のリアルな道のりを実践的なコードと共に体験します。Flutter初学者から中級者まで、楽しみながら学べる開発ドキュメンタリー。"
 
 # 本のトピック（カンマ区切りで5つまで）
 topics: ["Flutter", "Dart", "Firebase", "Gemini", "AI"]
