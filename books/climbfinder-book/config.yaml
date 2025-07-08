@@ -1,29 +1,36 @@
-# config.yaml
-
+# このファイルはZennのBookの設定ファイルです。
+# 詳細は https://zenn.dev/zenn/articles/zenn-book-config を参照
 # 本のタイトル
-title: "ゼロから学ぶFlutterアプリ開発の物語 - チョークの跡が繋ぐ、デジタル岩場"
+title: "Geminiと歩むFlutter開発物語 - AIと共に拓くアプリ開発"
 
-# 本の概要（ストアページやSNSでシェアされる際に表示されます）
-summary: "一人のWebデザイナー兼クライマー、高田美咲。彼女の「あったらいいな」という純粋な想いから生まれたFlutterアプリ『ClimbFinder』。静的なJSONデータから始まった小さなプロジェクトが、Firebaseとの出会い、そしてユーザーという”仲間”の声を得て、やがて日本中のクライマーを繋ぐ大きな『デジタル岩場』へと成長していく。これは、コードと情熱が紡ぐ、アプリ開発の物語です。"
+# 本の概要（読者が最初に目にする説明文）
+summary: "Webデザイナーの高田美咲が、AIアシスタントGeminiと共にクライミングジム検索アプリを一から作り上げる物語。Excelデータから始まり、Firebase、検索機能、ユーザー参加型機能、そして収益化まで、アプリ開発のリアルな道のりを実践的なコードと共に体験します。Flutter初学者から中級者まで、楽しみながら学べる開発ドキュメンタリー。"
 
-# 関連する技術トピック（5つまで）
-topics: ["Flutter", "Dart", "Firebase", "物語", "個人開発"]
+# 本のトピック（カンマ区切りで5つまで）
+topics: ["Flutter", "Dart", "Firebase", "Gemini", "AI"]
 
-# 公開設定 (trueにすると公開されます。最初はfalseのまま編集するのがおすすめです)
+# 本の公開設定（true: 公開, false: 下書き）
 published: false
 
-# 価格（無料の場合は0、有料の場合は200〜5000の整数）
-price: 0
+# 価格（無料の場合はnull、有料の場合は200〜5000の100円単位）
+# 有料にする場合は、Zennの有料Book販売の規約をご確認ください。
+price: 0 # 無料の場合は0またはnull
 
-# 表紙画像（任意）。同じフォルダに画像を配置してください。
-# coverImage: "cover.png"
-
-# 各章のファイル名を指定します。この順番で本が構成されます。
+# 各チャプター（記事）の並び順
+# slugは各Markdownファイルのファイル名から拡張子を除いたものです。
 chapters:
-  - 01-hajimari-no-data
-  - 02-digital-no-kabe
-  - 03-inochi-wo-fukikomu
-  - 04-saisyo-no-ashiato
-  - 05-hibikiau-koe
-  - 06-data-no-kabe-wo-koete
-  - 07-final-chapter
+  - 01_hajimari-no-data            # 第1章: 始まりのデータと賢い相棒
+  - 02_digital-no-kabe             # 第2章: デジタルの壁との格闘
+  - 03_list-ni-inochi-wo           # 第3章: リストに命を吹き込む
+  - 04_jouhou-e-no-route           # 第4章: 情報へのルートを開く
+  - 05_kensaku-filter              # 第5章: 無数の星から、探す一粒の光 (検索機能)
+  - 06_data-recon                  # 第6章: 不完全なデータという名の核心（ルビ：コア）
+  - 07_ai-yoru-data-teisatu        # 第7章: AIによるデータ偵察（ルビ：リーコン）
+  - 08_digital-to-analog           # 第8章: デジタルとアナログの交差点
+  - 09_koe-wo-katachi-ni           # 第9章: 声をかたちに
+  - 10_saisho-no-chalk-ato         # 第10章:最初のチョーク跡 (コメント機能)
+  - 11_minna-de-egaku-map          # 第11章:みんなで描く最新の地図 (情報報告)
+  - 12_kokoro-ni-kizamu-hold       # 第12章: 心に刻む、未来のホールド (お気に入り機能)
+  - 13_saishuushou                 # 第13章: 一本の線から生まれる、無数の物語 (課題DB)
+  - 14_appendix-code-summary       # 付録: ClimbFinder 全体コードサマリー
+  - 15_appendix-hosoku             # 補足: コードの向こう側にある世界

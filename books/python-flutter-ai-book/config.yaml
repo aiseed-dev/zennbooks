@@ -1,3 +1,5 @@
+# このファイルはZennのBookの設定ファイルです。
+# 詳細は https://zenn.dev/zenn/articles/zenn-book-config を参照 
 # 本のタイトル
 title: "Windowsで始める Python+Flutterモダン開発入門：AIと一緒にデータ分析からアプリリリースまで"
 
