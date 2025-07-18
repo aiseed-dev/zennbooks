@@ -1,0 +1,16 @@
+title: "Windowsで始める AIと共に歩むアプリ開発入門"
+summary: "この本は、AIをメンターとして活用しながら、個人でスマホアプリを作りたい人のための完全ガイドです。特に、Windows環境でFlutterを使って開発したい初心者に向けて、「環境構築」「AIとの会話」「実践的アプリ作成」「テスト方法」まで、順を追って丁寧にサポートします。"
+topics: [AI, Flutter, Windows, アプリ開発, 個人開発]
+published: true
+price: 0 # 有料の場合200〜5000
+chapters:
+  - introduction
+  - chapter1
+  - chapter2
+  - chapter3
+  - chapter4
+  - chapter5
+  - chapter6
+  - chapter7
+  - chapter8
+  - appendix
