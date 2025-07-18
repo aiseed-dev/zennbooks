@@ -133,7 +133,7 @@ winget install -e --id Microsoft.VisualStudioCode
 #### 2. Flutterプラグインの導入【重要】
 
 インストールが終わったら、初めてAndroid Studioを起動してみましょう。「ようこそ」画面が表示されたら、まずAndroid Studioに「これからFlutterの開発で使いますよ」と教えるための、**非常に重要な追加設定**を行います。
-![Android StudioのWelcome画面](image1.webp)
+![Android StudioのWelcome画面](/images/windows-ai-app/image1.webp)
 
 1.  画面左側のメニューから**「Plugins」（プラグイン）**をクリックします。
 2.  検索窓に「**Flutter**」と入力し、表示されたFlutterプラグインの「Install」ボタンを押します。（Dartプラグインも一緒にインストールされます）
