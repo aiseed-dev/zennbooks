@@ -1,0 +1,27 @@
+# Zenn Bookの設定ファイル (config.yaml)
+
+# 本のタイトル
+title: "AI x Python 個人開発の始め方：AI編"
+
+# 本の概要（読者へのメッセージ）
+summary: "AI開発は、もはや専門家だけのものではありません。なぜなら、AI自身が最高の家庭教師になってくれるからです。本書は、プロが実践するモダンな開発環境をWindows PCに構築し、「AIに助けてもらいながら、AI開発の面白さを体験する」ための、最も確実で、最も新しい冒険の地図です。"
+
+# 本のトピック（カンマ区切りで5つまで）
+topics: ["python", "ai", "scikitlearn", "個人開発", "gemini"]
+
+# 本の公開設定 (true: 公開, false: 下書き)
+published: true
+
+# 価格（無料の場合は null または 0）
+price: 0
+
+# 各章の構成
+chapters:
+  - "01-introduction"       # 第1章: AI開発、はじめの一歩 - AIがあなたの家庭教師になる
+  - "02-prepare-terminal"   # 第2章: 司令室とアトリエの準備 (Windows Terminal & 開発ディレクトリ)
+  - "03-install-miniforge"  # 第3章: AIツールの格納庫に「Miniforge」を設置する
+  - "04-setup-vscode"       # 第4章: 最後の仕上げ：VS Codeとターミナル中心ワークフロー
+  - "05-practice-sklearn"     # 第5章: 実践①：手書き文字を認識させてみよう！ (機械学習)
+  - "06-practice-gemini-chat" # 第6章: 実践②：Gemini APIでチャットボットを作る (生成AI)
+  - "07-practice-gemini-vision" # 第7章: 実践③：Geminiに画像を「説明」させてみよう (マルチモーダルAI)
+  - "08-conclusion"         # 第8章: まとめ - AIと共に歩む、あなただけの開発者ロードマップ

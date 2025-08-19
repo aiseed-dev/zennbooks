@@ -1,7 +1,6 @@
 node_modules
 .DS_Store
 .keep
-create_chapters.py
 venv
 *.pyc
 __pycache__
