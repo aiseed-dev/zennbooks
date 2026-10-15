@@ -1,5 +1,5 @@
 ---
-title: "委託する代わりに、AI に作らせる ── 一人で作り、動かし、守る aiai"
+title: "aiai — AI 時代の AI 活用法"
 emoji: "🌱"
 type: "idea"
 topics: ["googlecloud", "gemini", "aiagent", "flet", "python"]
